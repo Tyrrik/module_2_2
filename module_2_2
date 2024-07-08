@@ -1,0 +1,10 @@
+F = int(input("Введите первое число: "))
+S = int(input("Введите второе число: "))
+T = int(input("Введите третье число: "))
+
+if F == S and S == T:
+    print(3)
+elif F == S or F == T:
+    print(2)
+else:
+    print(0)
